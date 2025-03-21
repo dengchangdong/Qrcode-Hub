@@ -340,40 +340,6 @@
 
     <div class="card bg-base-100 shadow-xl mb-8">
         <div class="card-body">
-            <h2 class="card-title text-xl mb-4">使用说明</h2>
-            <div class="join join-vertical w-full">
-                <div class="collapse collapse-arrow join-item border border-base-300">
-                    <input type="radio" name="my-accordion-4" checked="checked" />
-                    <div class="collapse-title text-lg font-bold">
-                        使用步骤
-                    </div>
-                    <div class="collapse-content">
-                        <ul class="list-disc list-inside space-y-1">
-                            <li>1.将群聊二维码拖动或点击上传到二维码识别区域，即可自动识别二维码，并自动填充到目标URL输入框</li>
-                            <li>2.在目标URL输入框中输入群聊的名称、短链的名称，选择过期时间或者不设置过期时间，点击添加短链二维码</li>
-                            <li>3.在下方管理面板中可以看到已经添加的短链二维码，可以编辑、删除已创建的短链，并可查看或下载对应二维码</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="collapse collapse-arrow join-item border border-base-300">
-                    <input type="radio" name="my-accordion-4" />
-                    <div class="collapse-title text-lg font-bold">
-                        注意事项
-                    </div>
-                    <div class="collapse-content">
-                        <ul class="list-disc list-inside space-y-1">
-                            <li>1.短链名只能包含字母、数字、下划线和横线</li>
-                            <li>2.可以设置短链的过期时间，不设置则永久有效</li>
-                            <li>3.如果过期会自动通过邮件通知</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="card bg-base-100 shadow-xl mb-8">
-        <div class="card-body">
             <h2 class="card-title text-xl mb-4">二维码识别与短链创建</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <!-- 左侧：二维码识别区域 -->
@@ -454,7 +420,7 @@
         </div>
     </div>
 
-    <div class="card bg-base-100 shadow-xl">
+    <div class="card bg-base-100 shadow-xl mb-8">
         <div class="card-body">
             <div class="flex flex-col md:flex-row justify-between items-center gap-4 mb-4">
                 <h2 class="card-title text-xl">短链二维码管理</h2>
@@ -546,6 +512,40 @@
                     <button id="prevPage" class="join-item btn btn-sm">上一页</button>
                     <button class="join-item btn btn-sm">第 <span id="currentPage">1</span> 页</button>
                     <button id="nextPage" class="join-item btn btn-sm">下一页</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card bg-base-100 shadow-xl">
+        <div class="card-body">
+            <h2 class="card-title text-xl mb-4">使用说明</h2>
+            <div class="join join-vertical w-full">
+                <div class="collapse collapse-arrow join-item border border-base-300">
+                    <input type="radio" name="my-accordion-4" checked="checked" />
+                    <div class="collapse-title text-lg font-bold">
+                        使用步骤
+                    </div>
+                    <div class="collapse-content">
+                        <ul class="list-disc list-inside space-y-1">
+                            <li>1.将群聊二维码拖动或点击上传到二维码识别区域，即可自动识别二维码，并自动填充到目标URL输入框</li>
+                            <li>2.在目标URL输入框中输入群聊的名称、短链的名称，选择过期时间或者不设置过期时间，点击添加短链二维码</li>
+                            <li>3.在下方管理面板中可以看到已经添加的短链二维码，可以编辑、删除已创建的短链，并可查看或下载对应二维码</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="collapse collapse-arrow join-item border border-base-300">
+                    <input type="radio" name="my-accordion-4" />
+                    <div class="collapse-title text-lg font-bold">
+                        注意事项
+                    </div>
+                    <div class="collapse-content">
+                        <ul class="list-disc list-inside space-y-1">
+                            <li>1.短链名只能包含字母、数字、下划线和横线</li>
+                            <li>2.可以设置短链的过期时间，不设置则永久有效</li>
+                            <li>3.如果过期会自动通过邮件通知</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
